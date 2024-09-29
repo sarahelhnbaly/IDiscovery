@@ -33,7 +33,7 @@ Here we inform you all steps about our IDiscoery Project 🍓
 ## 1. Introduction
 
 ### 1.1 Purpose
-This Software Requirements Specification (SRS) describes all specifications for the application "Common Playground". It includes an overview about this project and its vision, detailed information about the planned features and boundary conditions of the development process.
+This Software Requirements Specification (SRS) document outlines the complete specifications for the "Common Playground" application. It provides a comprehensive overview of the project, articulates the vision and objectives, and delineates detailed descriptions of the intended features. Additionally, it specifies the constraints and conditions under which the development process will be conducted.
 
 
 ### 1.2 Scope
