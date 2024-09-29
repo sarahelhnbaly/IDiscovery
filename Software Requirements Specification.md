@@ -278,12 +278,17 @@ The logo is licensed to the Common Playground Team and is only allowed to use fo
 The development will follow the common clean code standards and naming conventions. Also we will create a definition of d which will be added here as soon as its complete.
 
 ## 4. Supporting Information
-For any further information you can contact the Common Playground Team or check our [Common Playground Blog](http://commonplayground.wordpress.com). 
+
+For any further information, you can contact the I Discovery team or check our [I Discovery Blog](https://citydiscoveryapp.wordpress.com). 
+
 The Team Members are:
-- Celina Adam
-- Inga Batton
-- Nils Krehl 
-- Denis Reibel
+- Nilgün Kurtar
+- Sarah Elhanbaly
+- Ehsan Goodarzi
+
+For more about our team, visit [Our Team](https://citydiscoveryapp.wordpress.com/2024/09/16/our-team/).
+
+
 
 <!-- Picture-Link definitions: -->
 [OUCD]: https://github.com/IB-KA/CommonPlayground/blob/master/UseCaseDiagramCP.png "Overall Use Case Diagram"
