@@ -31,7 +31,7 @@ Here we inform you all steps about our IDiscoery Project 🍓
 - [Supporting Information](#4-supporting-information)
 
 ## 1. Introduction
-
+Welcome to **I Discovery**, The JDK is a core requirement for compiling and executing Java code, forming the foundation of any Android app development.
 ### 1.1 Purpose
 This Software Requirements Specification (SRS) document outlines the complete specifications for the "Common Playground" application. It provides a comprehensive overview of the project, articulates the vision and objectives, and delineates detailed descriptions of the intended features. Additionally, it specifies the constraints and conditions under which the development process will be conducted.
 
