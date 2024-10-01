@@ -405,9 +405,9 @@ These user interfaces aim to provide a seamless and engaging experience for user
 For any further information, you can contact the I Discovery team or check our [I Discovery Blog](https://citydiscoveryapp.wordpress.com). 
 
 The Team Members are:
-- Nilgün Kurtar
-- Sarah Elhanbaly
-- Ehsan Goodarzi
+- Nilgün Kurtar.
+- Sarah Elhanbaly.
+- Ehsan Goodarzi.
 
 For more about our team, visit [Our Team](https://citydiscoveryapp.wordpress.com/2024/09/16/our-team/).
 
