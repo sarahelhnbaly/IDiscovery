@@ -1,5 +1,27 @@
-# IDiscovery
-Here we inform you all steps about our IDiscoery Project 🍓
+# IDiscovery Project 🍓
+
+## Promise of Inspiration
+
+The IDiscovery Project aims to blend creativity and technology, fostering innovative solutions that inspire exploration and learning. We believe in the power of collaboration and the potential of every idea to create a meaningful impact.
+
+### Goals
+
+1. **User-Centric Design:** Develop an application that prioritizes user experience and intuitive navigation.
+2. **Sustainable Practices:** Incorporate eco-friendly practices in project development and operations.
+3. **Collaborative Innovation:** Partner with creative minds and organizations to enhance the project's offerings.
+
+### Get Involved
+
+Join us in our mission to inspire and explore! Whether you're a developer, designer, or enthusiast, there are many ways to contribute to the IDiscovery Project.
+
+- **Collaborate:** Work with us on exciting projects.
+- **Share Ideas:** Contribute your thoughts and suggestions.
+- **Follow Our Journey:** Stay updated on our progress and upcoming events.
+
+### Let's Create Together!
+
+Together, we can inspire a generation of explorers and creators. Join us on this exciting journey with the IDiscovery Project!
+
 
 # Common Playground - Software Requirements Specification 
 
@@ -34,27 +56,16 @@ Here we inform you all steps about our IDiscoery Project 🍓
 Discover a world of adventure with our app, designed to turn everyday routines into exciting, memorable experiences!
 
 ### 1.1 Purpose
-This Software Requirements Specification (SRS) document outlines the complete specifications for the "Common Playground" application. It provides a comprehensive overview of the project, articulates the vision and objectives, and delineates detailed descriptions of the intended features. Additionally, it specifies the constraints and conditions under which the development process will be conducted.
-
+e purpose of this document is to outline the requirements for the City Exploration Application, which provides users with an interactive platform to explore their city through personalized adventures based on selected transportation methods, durations, and tour types.
 
 ### 1.2 Scope
-The project is going to be realized as an Android App.  
-  
-Actors of this App can be users or moderators.  
-  
-Planned Subsystems are: 
-* Notice Board:  
-The notice board is the essential part of the user interface. Game sessions should be visualized as postings including relevant information about the session. Those should be partly standardized by a form with a free text option for specifics. The data must be stored accordingly.
-* Account System:  
-Users can create accounts so sessions can be connected to a person as well as to join requests. User data must be stored alongside the posting data.
-* Friend List and User Rating:  
-Once the account system is created there will be the option to mark users as favorites. Also users or game sessions should get a rating to counter abuse.
-* Connecting People:  
-The host of a game session has to be notified when someone wants to join their game. Both must then be able to get in touch to organize the details, so messages between the host and the guest have to be enabled. This could be done via automated emails or a custom in-app system. For this an account system is needed.
-* Storing Data:  
-User data for accounts and possibly profiles has to be stored. Also the game sessions have to be stored as datasets containing the form contents and possibly contact data. The data storage will form the foundation for the visualization, account system and the search feature.
-* Finding your Game:  
-We need a tag system so everyone looking to join a game can search for the kind of games they are interested in. Possibly other aspects can be searchable, such as place or date. Tags must be stored and a search function developed. 
+The City Exploration Application will cater to a wide audience, including tourists, locals, families, and groups looking for engaging city experiences. Key functionalities will include:
+- Transportation method selection (bicycle, walking, public transport)
+- Adventure duration selection (1, 2, 3, or 6 hours)
+- Tour type options (normal or game city exploration)
+- An interactive city guide featuring dining, sightseeing, and local events
+- User profiles for tracking adventure history and achievements
+
 
 ### 1.3 Definitions, Acronyms and Abbreviations
 | Abbrevation | Explanation                            |
@@ -68,215 +79,326 @@ We need a tag system so everyone looking to join a game can search for the kind 
 
 ### 1.4 References
 
-| Title                                                                         | Date       | Publishing organization   |
-| -------------------------------------------------------------------------------|:----------:| ------------------------- |
-| [City Discovery App Blog](https://citydiscoveryapp.wordpress.com)              |    -       | Not specified             |
-| [IDiscovery GitHub](https://github.com/Ehsangood1/IDiscovery)                  |    -       | Not specified             |
-
+| Title                                                                         | Date       | Publishing Organization   |
+| ------------------------------------------------------------------------------ |:----------:| ------------------------- |
+| City Discovery App Blog                                                       |    -       | wordpress.com              |
+| IDiscovery GitHub                                                              |    -       |GitHub                     |
+| Project Management                                                             |    -       | YouTrack                  |
+| Unified Modeling Language (UML)                                                |    -       | UML Diagrams              |
+| Mind Map                                                                      |    -       | Lucidchart                 |
+| App Design and Colors                                                         |    -       | Figma                      |
+| Gradients Application (used for creating appealing color schemes for design) |    -       | Gradients                   |
+| Use Case Diagram (UCD)                                                       |    -       |    draw.io                  |
 
 
 ### 1.5 Overview
-The following chapter provides an overview of this project with vision and Overall Use Case Diagram. The third chapter (Requirements Specification) delivers more details about the specific requirements in terms of functionality, usability and design parameters. Finally there is a chapter with supporting information. 
+
+This document outlines both functional and non-functional requirements for the City Exploration Application. It describes how the application will operate, its key features, and user interactions. Additionally, it details the development environment, project management tools, and testing frameworks that will be utilized to ensure the successful implementation of the application. By providing this structured approach, the SRS aims to serve as a guide for developers and stakeholders throughout the development lifecycle.
+
     
 ## 2. Overall Description
 
 ### 2.1 Vision
-Inspired by carpool coordination services like ‘BlaBlaCar’ or ‘Mitfahrzentrale’ we want to build an application to coordinate game sessions. We plan to create a platform for people who are looking for other people to play games with. Covering online multiplayer games, tabletop, pen and paper or regular board games we want to provide a kind of bulletin board where people can state what they want to play, when and where they want to do it and how many people they are looking for. Others can then react to the postings and virtually join the play session to be connected by us so everyone can coordinate the actual play session together on a Common Playground.
+
+- **Empower Exploration:** Encourage users to discover new places and experiences through engaging technology.
+- **Inspire Creativity:** Provide tools and resources that spark creativity and innovation in every individual.
+- **Foster Community:** Build a supportive community that shares knowledge, experiences, and inspiration.
 
 ### 2.2 Use Case Diagram
 
-![OUCD](./UseCaseDiagramCP.png)
+![OUCD](TBD)
 
-- Green: Planned till end of december
-- Yellow: Planned till end of june
+- Green:(n/a)
+- Yellow:(n/a)
 
 ### 2.3 Technology Stack
 The technology we use is:
+## 1. Development Environment
 
-Backend:
--Gradle and Springboot
--H2 Database
+### 1.1 Backend Development
 
-Frontend:
--Android with Java and XML
+#### Java Development Kit (JDK)
+- **Purpose**: Provides the Java compiler and runtime environment for developing Java applications.
+- **Download**: [Oracle JDK](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) or [OpenJDK](https://openjdk.java.net/install/).
 
-IDE:
--IntelliJ and Android Studio
+#### Version Control
+- **Git**: A distributed version control system to manage source code changes.
+  - **Tools**: Git can be used via command-line or with GUI tools like GitHub Desktop, Sourcetree, or integrated directly into IDEs.
 
-Project Management:
--YouTrack
--GitHub
--Microsoft Teams
+#### Database
+- **SQLite**: A lightweight database for storing data locally within the app.
+  - **Usage**: Can be accessed directly through the Android framework.
 
-Deployment:
--Travis CI
--Docker and Heroku
+#### Testing Frameworks
+- **JUnit**: A framework for unit testing Java applications.
+  - **Usage**: For writing and running tests on your Java code.
+- **Espresso**: Used for writing UI tests for Android applications.
+  - **Usage**: Ensures the application’s UI behaves as intended.
 
-Testing:
--Cucumber
--Espresso
--JUnit
--Codacy
--CodeMR
--RestAssured
+#### Documentation Tools
+- **Javadoc**: A tool for generating API documentation from comments in your source code.
+  - **Usage**: Helps users understand how to use various components of your app.
+
+### 1.2 Frontend Development
+
+#### Integrated Development Environment (IDE)
+- **Recommended IDE**: 
+  - **Android Studio**: The official IDE for Android development, which includes a built-in emulator and access to Google APIs.
+  - **Eclipse**: An open-source IDE option for Java development.
+  - **IntelliJ IDEA**: Popular for its intelligent code completion and support for multiple languages.
+
+#### Google APIs
+- **Google Maps API**: Provides services for displaying maps, routing, and adding location-based features to your app.
+  - **Setup**: Requires an API key through the Google Cloud Console.
+- **Google Play Services**: Provides access to location services and other APIs.
+  - **Usage**: Include relevant dependencies in your `build.gradle` file.
+
+#### Additional Libraries (Optional)
+- **Glide or Picasso**: Libraries for loading and caching images efficiently in Android applications.
+  - **Usage**: Useful if your app displays lots of images (e.g., attraction photos).
+- **Room Database**: Part of Android Architecture Components, it provides an abstraction layer over SQLite for easier database management.
+  - **Usage**: Helps manage local data storage in a more structured way.
+
+### 1.3 API Development
+
+#### Project Management and Build Tool
+- **Gradle**: A build automation tool for Android projects that manages dependencies and compiles the app.
+  - **Usage**: Included with Android Studio; ensure to configure your project’s `build.gradle` file.
+
+#### API Development and Testing Tools
+- **Postman**: A tool for testing APIs, aiding in development and debugging.
+  - **Usage**: Can simulate requests and responses when integrating back-end services.
+
+#### Communication and Collaboration Tools
+- **Slack or Microsoft Teams**: For team communication and collaboration, sharing ideas, and daily updates.
+- **Trello or JIRA**: Project management tools to track tasks, issues, and project progress.
+
+### 1.4 Tools for First Level
+- **JDK**: For Java development.
+- **Android Studio**: IDE for writing, testing, and debugging your app.
+- **Git**: For version control and collaboration.
+- **Gradle**: For building projects and managing dependencies.
+- **Google Maps API**: For map features in your application.
+- **SQLite**: For local data storage needs.
+- **JUnit**: For basic testing functionalities.
+- **Postman**: For API testing.
+- **Javadoc**: For generating code documentation.
+
 
 ## 3. Specific Requirements
 
 ### 3.1 Functionality
-This section will explain the different use cases, you could see in the Use Case Diagram, and their functionality.  
-Until December we plan to implement:
-- 3.1.1 Posting a session
-- 3.1.2 Getting an overview
-- 3.1.3 Creating an account
-- 3.1.4 Logging in
-- 3.1.5 Logging out
-
-Until June, we want to implement:
-- 3.1.6 Joining a session
-- 3.1.7 Keeping track of your sessions
-- 3.1.8 Leaving a session
-- 3.1.9 Finding a session
-- 3.1.10 Getting in touch
+This section will explain the different use cases, you could see in the Use Case Diagram, and their functionality(TBD).  
 
 #### 3.1.1 Posting a session
-This feature is the essential one of our project. The user gets the possibility to post a session. Therefore, they have to select a game and also set the time when they want to play.For offline games, they have to set a location, too. For online games the location can be a server for example or simply be tagged as 'online'.
+(TBD).
 
-[Posting a session](./use_cases/UC1_Post_Session.md)
+[Posting a session](TBD)
 
 #### 3.1.2 Getting an overview
-This feature provides a basic overview over all current sessions. All posted sessions are added here. From this overview you can select a session and from there join this session.
+(TBD)
 
-[Session overview](./use_cases/UC3_Session_Overview.md)
+[Session overview]((TBD))
 
 #### 3.1.3 Creating an account
 To identify all useres we need an account system. This account system enables us to build important functions such as joining a session, leaving a session or a personalized overview over all sessions (Keeping track of your sessions).
 
-[Create an account](./use_cases/UC4_Create_Account.md)
+[Create an account]((TBD))
 
 #### 3.1.4 Logging in
 The app will provide the possibility to register and log in. This will also make the usability easier when a user wants to manage his sessions, post or join a session because they don't have to enter their mail address every time.
 
-[Login](./use_cases/UC5_Login.md)
+[Login]((TBD))
 
 #### 3.1.5 Logging out
 In case you share your phone, have multiple accounts or just want to be cautius about your privacy you should be able to manually log out.
 
-[Logout](./use_cases/UC6_Logout.md)
+[Logout]((TBD))
 
 #### 3.1.6 Joining a session
-There is also the possibility to join an existing game session. Therefore, the user can select a specific session.
+(TBD).
 
-[Join a session](./use_cases/UC2_Join_Session.md)
+[Join a session](TBD)
 
 #### 3.1.7 Keeping track of your sessions
-The app provides the user with a seperate page view where they get an overview of all sessions they posted or joined. When the user clicks on a session, he can also see who joined his posted sessions.
+(TBD).
 
-[Keeping track of your sessions](./use_cases/UC7_Keeping_Track.md)
+[Keeping track of your sessions](.TBD)
 
 #### 3.1.8 Leaving a session
-The user gets also the possibility to delete a session he posted or to leave a session he joined.
+(TBD).
 
-[Leaving a session](./use_cases/UC8_Leave_Session.md)
+[Leaving a session]((TBD))
 
 #### 3.1.9 Finding a session
-Based on the overview over all sessions this features enables the user to find sessions by specific parameters. Therefore, the user can find a session by tags or other parameters like date. Later on, finding a session will be provided by geolocalization that the users can search for a session in a specific area.
-
-[Finding a session](./use_cases/UC9_Find_Session.md)
+(TBD).
+[Finding a session](TBD)
 
 #### 3.1.10 Getting in touch
-There must be the possibility that two people who want to play together can communicate with each other. The player who joins the session gets the possibility to contact the owner and vice versa. Later on, when we will have implemented profiles, then they will form another way to communicate with each other.
-
-[Getting in Touch](./use_cases/UC10_Getting_In_Touch.md)
+(TBD)
+[Getting in Touch](TBD)
 
 #### 3.1.11 Presenting yourself and checking out others
-With the possibility to log in there comes another functionality, the profile. Every user will have their own profile where they can write some informations about themselves. Because of the privacy policy in Europe, the user has the possibility to only write the information they want other people to see. Using the profile, users can also check out other players and learn e.g. their favorite games.
+(TBD.)
+
 
 #### 3.1.12 Reporting users and managing friends
-After a session, the app provides the users with the possibility to report the other participants. This is helpful because we want a community with fair players. Additionally, when they found an interesting person they can also add them to their friend list which also has a seperate page view.
+(TBD).
 
 #### 3.1.13 Banning users and deleting posts
-There are also some functionalities for the admins. They will get the possibility to ban users and to delete any posts.
+(TBD).
+
 
 ### 3.2 Usability
-We plan on designing the user interface as intuitive and self-explanatory as possible to make the user feel as comfortable as possible using the app. Though an FAQ document will be available, it should not be necessary to use it.
+(TBD).
+
 
 #### 3.2.1 No training time needed
-Our goal is that a user installs the android application, opens it and is able to use all features without any explanation or help.
+(TBD).
 
 #### 3.2.2 Familiar Feeling
-We want to implement an app with familiar designs and functions. This way the user is able to interact in familiar ways with the app without having to get to know new interfaces.
+(TBD).
+
 
 ### 3.3 Reliability
+(TBD).
 
 #### 3.3.1 Availability
-The server shall be available 95% of the time. This also means we have to figure out the "rush hours" of our app because the downtime of the server is only tolerable when as few as possible players want to use the app.
+(TBD).
 
 #### 3.3.2 Defect Rate
-Our goal is that we have no loss of any data. This is important so that the game sessions can carry on, even after a downtime of the server.
+(TBD).
 
 ### 3.4 Perfomance
 
 #### 3.4.1 Capacity
-The system should be able to manage thousands of requests. Also it should be possible to register as many users as necessary.
+(TBD).
 
 #### 3.4.2 Storage 
-Smartphones don't provide much storage. Therefore we are aiming to keep the needed storage as small as possible.
+(TBD).
 
 #### 3.4.3 App perfomance / Response time
-To provide the best App perfomance we aim to keep the response time as low as possible. This will make the user experience much better.
+(TBD).
 
 ### 3.5 Supportability
 
 #### 3.5.1 Coding Standards
-We are going to write the code by using all of the most common clean code standards. For example we will name our variables and methods by their functionalities. This will keep the code easy to read by everyone and make further developement much easier.
+(TBD).
 
 #### 3.5.2 Testing Strategy
-The application will have a high test coverage and all important functionalities and edge cases should be tested. Further mistakes in the implementation will be discovered instantly and it will be easy to locate the error. 
+### 3.5.2 Testing Strategy
+
+A comprehensive testing strategy will ensure the quality and functionality of the mobile application, focusing on both core features and user experience.
+
+#### 1. Unit Testing
+- **Framework**: JUnit
+- **Purpose**: Validate individual components and methods.
+
+#### 2. Integration Testing
+- **Framework**: JUnit and Espresso
+- **Purpose**: Ensure modules work together as intended.
+
+#### 3. User Interface (UI) Testing
+- **Framework**: Espresso
+- **Purpose**: Verify UI elements and user interactions.
+
+#### 4. Functional Testing
+- **Purpose**: Confirm the app meets specified requirements.
+
+#### 5. Performance Testing
+- **Purpose**: Assess app responsiveness under various conditions.
+
+#### 6. Security Testing
+- **Purpose**: Validate security measures and data protection.
+
+#### 7. User Acceptance Testing (UAT)
+- **Purpose**: Gather feedback from actual users for improvements.
+
+#### 8. Regression Testing
+- **Purpose**: Ensure new changes do not affect existing functionalities.
+
+### Conclusion
+This strategy will help deliver a reliable, user-friendly mobile application that meets project objectives.
+
 
 ### 3.6 Design Constraints
-We are trying to provide a modern and easy to handle design for the UI aswell as for the architecture of our application. To achieve that the functionalities will be kept as modular as possible.
 
-Because we are progamming an Android App we chose Java as our programming language. Also we are using the common MVC-architecture to keep the front end and back end seperated. For a clean front end structure we use MVVM.
-To make the communication between the two parts easy, we will implement a RESTful-API between them which will provide the data in JSON-Format. 
-The supported Platforms will be:
-- Android 4.4 and higher
-- Java 8 and higher
+Design constraints define the limitations for developing the mobile application:
+
+1. **Platform Compatibility**: Must support Android and iOS, accommodating various screen sizes.
+2. **Performance**: App should load within 3 seconds and optimize memory usage.
+3. **User Interface**: Follow platform-specific design guidelines for consistency.
+4. **Accessibility**: Comply with WCAG standards, offering features like text-to-speech.
+5. **Security**: Implement encryption and secure authentication, adhering to data protection regulations.
+6. **Third-Party Dependencies**: Use well-maintained libraries compatible with the app.
+7. **Budget**: Adhere to the allocated budget and project timeline.
+
+### Conclusion
+These constraints ensure a functional, user-friendly, and compliant mobile application.
+
 
 ### 3.7 On-line User Documentation and Help System Requirements
-The usage of the app should be as intuitive as possible so it won't need any further documentation. If the user needs some help we will implement a "Help"-Button in the App which includes a FAQ and a formular to contact the developement team.
+(TBD).
 
 ### 3.8 Purchased Components
-We don't have any purchased components yet. If there will be purchased components in the future we will list them here.
+(TBD).
 
 ### 3.9 Interfaces
 
 #### 3.9.1 User Interfaces
-The User interfaces that will be implented are:
-- Dashboard - lists all session and makes it possible to filter sessions
-- Session Page - shows detailed information about the session and makes it possible to connect session attendants for example via messaging system
-- Login - this page is used to log in 
-- Register - provides a registration form
-- Overwiew of personal sessions - shows all the sessions a user participates in
-- Friend List - friends can be added
-- Profile - makes it possible to post information about yourself, might provide messaging feature, also shows additional information about users (for example: Language, country, favorite games, etc.)
-- Settings - shows the settings
+### 3.9.1 User Interfaces
+
+This section outlines the key user interfaces for the mobile application, focusing on usability and functionality.
+
+#### 1. Home Page
+- **Features**: Personalized greeting, Explore Now button, navigation bar (Home, City Guide, Profile, Settings).
+
+#### 2. Adventure Selection Page
+- **Features**: Transportation method selection (icons), duration selection (buttons/slider), tour type selection (toggle buttons).
+
+#### 3. Modes of Play Page
+- **Features**: Options for group modes (closed, online, build a group), single player, family mode, and middle player only mode.
+
+#### 4. City Guide Page
+- **Features**: Sections for Eat & Drink (ratings/photos), sightseeing (map view), transportation info, and local activities.
+
+#### 5. Interactive Map Page
+- **Features**: Full-screen interactive map with markers for attractions, dining, and transport routes, with detail views for each location.
+
+#### 6. User Profile Page
+- **Features**: Account management, adventure history, achievements, and options to interact with others.
+
+#### 7. Notifications Page
+- **Features**: Alerts for events, group messages, and zone exit notifications.
+
+#### 8. Feedback and Support Page
+- **Features**: Customer support contact, feedback form, and FAQs.
+
+#### 9. Settings Page
+- **Features**: App settings customization, help, and FAQs.
+
+### Conclusion
+These user interfaces aim to provide a seamless and engaging experience for users throughout the application.
+
 
 #### 3.9.2 Hardware Interfaces
 (n/a)
 
-#### 3.9.3 Software Interfaces
-The app will be runnable on Android 4.4 and higher. iOS won't be featured at the moment.
+### 3.9.3 Software Interfaces
+- [TBD.]
 
-#### 3.9.4 Communication Interfaces
-The server and hardware will communicate using the http protocol. 
+### 3.9.4 Communication Interfaces
+- [TBD.]
 
 ### 3.10 Licensing Requirements
+- [TBD.]
 
 ### 3.11 Legal, Copyright, and Other Notices
-The logo is licensed to the Common Playground Team and is only allowed to use for the application. We do not take responsibilty for any incorrect data or errors in the application.
+- [TBD.]
 
 ### 3.12 Applicable Standards
-The development will follow the common clean code standards and naming conventions. Also we will create a definition of d which will be added here as soon as its complete.
+- [TBD.]
+
 
 ## 4. Supporting Information
 
@@ -292,4 +414,4 @@ For more about our team, visit [Our Team](https://citydiscoveryapp.wordpress.com
 
 
 <!-- Picture-Link definitions: -->
-[OUCD]: https://github.com/IB-KA/CommonPlayground/blob/master/UseCaseDiagramCP.png "Overall Use Case Diagram"
+[OUCD]: tbd
