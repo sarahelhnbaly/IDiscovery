@@ -2,7 +2,7 @@
 
 ## Promise of Inspiration
 
-The IDiscovery Project aims to blend creativity and technology, fostering innovative solutions that inspire exploration and learning. We believe in the power of collaboration and the potential of every idea to create a meaningful impact.
+The IDiscover Project aims to blend creativity and technology, fostering innovative solutions that inspire exploration and learning. We believe in the power of collaboration and the potential of every idea to create a meaningful impact.
 
 ### Goals
 
@@ -56,19 +56,19 @@ Together, we can inspire a generation of explorers and creators. Join us on this
 Discover a world of adventure with our app, designed to turn everyday routines into exciting, memorable experiences!
 
 ### 1.1 Purpose
-e purpose of this document is to outline the requirements for the City Exploration Application, which provides users with an interactive platform to explore their city through personalized adventures based on selected transportation methods, durations, and tour types.
+This document outlines the requirements for the City Exploration Application, which provides users with an interactive platform to explore their city through personalized adventures based on selected transportation methods, durations, and tour types.
 
 ### 1.2 Scope
 The City Exploration Application will cater to a wide audience, including tourists, locals, families, and groups looking for engaging city experiences. Key functionalities will include:
 - Transportation method selection (bicycle, walking, public transport)
 - Adventure duration selection (1, 2, 3, or 6 hours)
-- Tour type options (normal or game city exploration)
+- Tour-type options (normal or game city exploration)
 - An interactive city guide featuring dining, sightseeing, and local events
 - User profiles for tracking adventure history and achievements
 
 
 ### 1.3 Definitions, Acronyms and Abbreviations
-| Abbrevation | Explanation                            |
+| Abbreviation | Explanation                            |
 | ----------- | -------------------------------------- |
 | SRS         | Software Requirements Specification    |
 | UC          | Use Case                               |
@@ -87,13 +87,13 @@ The City Exploration Application will cater to a wide audience, including touris
 | Unified Modeling Language (UML)                                                |    -       | UML Diagrams              |
 | Mind Map                                                                      |    -       | Lucidchart                 |
 | App Design and Colors                                                         |    -       | Figma                      |
-| Gradients Application (used for creating appealing color schemes for design) |    -       | Gradients                   |
+| Gradients Application (used for creating appealing colour schemes for design) |    -       | Gradients                   |
 | Use Case Diagram (UCD)                                                       |    -       |    draw.io                  |
 
 
 ### 1.5 Overview
 
-This document outlines both functional and non-functional requirements for the City Exploration Application. It describes how the application will operate, its key features, and user interactions. Additionally, it details the development environment, project management tools, and testing frameworks that will be utilized to ensure the successful implementation of the application. By providing this structured approach, the SRS aims to serve as a guide for developers and stakeholders throughout the development lifecycle.
+This document outlines both functional and non-functional requirements for the City Exploration Application. It describes the application's operation, key features, and user interactions. Additionally, it details the development environment, project management tools, and testing frameworks that will be utilized to ensure the successful implementation of the application. By providing this structured approach, the SRS aims to serve as a guide for developers and stakeholders throughout the development lifecycle.
 
     
 ## 2. Overall Description
@@ -123,7 +123,7 @@ The technology we use is:
 
 #### Version Control
 - **Git**: A distributed version control system to manage source code changes.
-  - **Tools**: Git can be used via command-line or with GUI tools like GitHub Desktop, Sourcetree, or integrated directly into IDEs.
+  - **Tools**: Git can be used via command line or with GUI tools like GitHub Desktop, and Sourcetree, or integrated directly into IDEs.
 
 #### Database
 - **SQLite**: A lightweight database for storing data locally within the app.
@@ -201,17 +201,17 @@ This section will explain the different use cases, you could see in the Use Case
 [Session overview]((TBD))
 
 #### 3.1.3 Creating an account
-To identify all useres we need an account system. This account system enables us to build important functions such as joining a session, leaving a session or a personalized overview over all sessions (Keeping track of your sessions).
+To identify all users we need an account system. This account system enables us to build important functions such as joining a session, leaving a session or a personalized overview of all sessions (Keeping track of your sessions).
 
 [Create an account]((TBD))
 
 #### 3.1.4 Logging in
-The app will provide the possibility to register and log in. This will also make the usability easier when a user wants to manage his sessions, post or join a session because they don't have to enter their mail address every time.
+The app will provide the possibility to register and log in. This will also make usability easier when a user wants to manage his sessions, post or join a session because they don't have to enter their mail address every time.
 
 [Login]((TBD))
 
 #### 3.1.5 Logging out
-In case you share your phone, have multiple accounts or just want to be cautius about your privacy you should be able to manually log out.
+In case you share your phone, have multiple accounts or just want to be cautious about your privacy you should be able to manually log out.
 
 [Logout]((TBD))
 
@@ -357,13 +357,13 @@ This section outlines the key user interfaces for the mobile application, focusi
 - **Features**: Transportation method selection (icons), duration selection (buttons/slider), tour type selection (toggle buttons).
 
 #### 3. Modes of Play Page
-- **Features**: Options for group modes (closed, online, build a group), single player, family mode, and middle player only mode.
+- **Features**: Options for group modes (closed, online, build a group), single-player, family mode, and middle player only mode.
 
 #### 4. City Guide Page
 - **Features**: Sections for Eat & Drink (ratings/photos), sightseeing (map view), transportation info, and local activities.
 
 #### 5. Interactive Map Page
-- **Features**: Full-screen interactive map with markers for attractions, dining, and transport routes, with detail views for each location.
+- **Features**: Full-screen interactive map with markers for attractions, dining, and transport routes, with detailed views for each location.
 
 #### 6. User Profile Page
 - **Features**: Account management, adventure history, achievements, and options to interact with others.
