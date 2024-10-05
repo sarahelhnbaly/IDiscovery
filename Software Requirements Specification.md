@@ -106,7 +106,8 @@ This document outlines both functional and non-functional requirements for the C
 
 ### 2.2 Use Case Diagram
 
-file:///C:/Users/ego/Downloads/UCD.drawio.svg
+
+![UCD drawio (1)](https://github.com/user-attachments/assets/8189df5b-dc20-469a-8848-099430f5b405)
 
 
 ![OUCD](TBD)
