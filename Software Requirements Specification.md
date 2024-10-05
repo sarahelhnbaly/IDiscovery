@@ -110,10 +110,8 @@ This document outlines both functional and non-functional requirements for the C
 ![UCD drawio (1)](https://github.com/user-attachments/assets/8189df5b-dc20-469a-8848-099430f5b405)
 
 
-![OUCD](TBD)
-
-- Green:(n/a)
-- Yellow:(n/a)
+- Green:  3rd Semester
+- Yellow: 4th semester
 
 ### 2.3 Technology Stack
 The technology we use is:
