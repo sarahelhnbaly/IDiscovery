@@ -106,6 +106,9 @@ This document outlines both functional and non-functional requirements for the C
 
 ### 2.2 Use Case Diagram
 
+![Uploading UCD.drawio.svg…]()
+
+
 ![OUCD](TBD)
 
 - Green:(n/a)
