@@ -115,6 +115,9 @@ This document outlines both functional and non-functional requirements for the C
 
 ### 2.3 Technology Stack
 The technology we use is:
+
+![WhatsApp Image 2024-09-29 at 13 54 27](https://github.com/user-attachments/assets/3edc7228-b56d-4e5a-9530-41207abf5a09)
+
 ## 1. Development Environment
 
 ### 1.1 Backend Development
