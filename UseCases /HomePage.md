@@ -2,10 +2,7 @@
 
 ### Software Requirements Specification (SRS) for Home Page
 
-**Project Title**: City Exploration App — Home Page
-
-**Prepared by**: [Your Name]
-**Date**: [Current Date]
+**Project Title**: IDiscovery App — Home Page
 
 ---
 
