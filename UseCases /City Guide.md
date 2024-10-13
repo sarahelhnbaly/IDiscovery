@@ -74,6 +74,9 @@ The City Guide feature is designed to engage users by providing a simple and eff
 - **Home Page**: The City Guide section includes a search bar, a list of nearby attractions, and tabs for restaurants.
 - **City Guide Page**: Features a prominent display of a map and a list of attractions/venues, with options for scrolling.
 
+![image](https://github.com/user-attachments/assets/f0b606cb-3c1d-4eeb-9c60-7e1d7b3d8526)
+![image](https://github.com/user-attachments/assets/c1bad5fc-be64-4fb3-975b-0e2b9b295bd6)
+
 ### 5.3 Activity Diagram  
 **User Activities**
 - Start 
