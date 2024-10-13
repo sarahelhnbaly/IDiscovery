@@ -119,4 +119,7 @@ The City Guide feature is designed to engage users by providing a simple and eff
      [Edit a Comment]  ----------------------→ [Acknowledge Comment Updated]
              ↓
      [Delete a Comment]  --------------------→ [Acknow
-#### 6. Wire frame
+#### 6. Wireframe
+
+![a29aN7sKQUJDERduSw1b5h](https://github.com/user-attachments/assets/06a19138-246d-4f1a-9c36-00c10cba46f2)
+
