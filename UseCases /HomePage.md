@@ -121,7 +121,65 @@ The application will be available on web and mobile platforms.
    **And** I press the "Create Account" button  
    **Then** I remain on the "Create Account" page  
    **And** I receive an "Error" message  
-**
+#####7. CRUD Operations for Home Page
+
+## 7.1. Create
+- **User Account Creation**:
+  - **Functionality**: Users can create a new account to access personalized features.
+  - **Process**: Users enter their username, email, and password and submit the form to create the account.
+
+- **Comments/Reviews**:
+  - **Functionality**: Users can submit comments or reviews on attractions or places they have visited.
+  - **Process**: After selecting an activity or restaurant, users fill out a comment box and submit it.
+
+## 7.2. Read
+- **View Home Page**:
+  - **Functionality**: Users can view the Home Page at any time, which contains a welcome message, navigation links, and featured content.
+  
+- **Display User Profile Information**:
+  - **Functionality**: If logged in, users can view their profile details like username and preferences from the Home Page.
+
+- **View Latest Spots**:
+  - **Functionality**: Users can see a dynamic list of latest attractions or activities based on their location.
+
+- **View Search Results**:
+  - **Functionality**: When users perform a search using the search bar, relevant results for activities, attractions, and restaurants are displayed.
+
+## 7.3. Update
+- **Update Profile Information**:
+  - **Functionality**: Users can modify their profile information such as email or password.
+  - **Process**: Users access their profile section, make changes, and save updates.
+
+- **Edit Comments/Reviews**:
+  - **Functionality**: Users can edit their previously submitted comments or reviews.
+  - **Process**: After locating their comment, users select an "Edit" option, modify the text, and resubmit.
+
+## 7.4. Delete
+- **Delete User Account**:
+  - **Functionality**: Users can delete their account, which removes their data from the app.
+  - **Process**: Users navigate to account settings and select the option to delete their account, usually confirmed with a prompt.
+
+- **Delete Comments/Reviews**:
+  - **Functionality**: Users can delete their comments or reviews.
+  - **Process**: Users find their comment or review and select a "Delete" option, usually confirmed with a prompt.
+
+---
+
+# Summary of CRUD Operations for Home Page
+
+| **Operation** | **Functionality**                                  | **Description**                                                              |
+|---------------|----------------------------------------------------|------------------------------------------------------------------------------|
+| Create        | User Account Creation                             | User registers to create a new account.                                     |
+|               | Comments/Reviews                                   | User submits comments or reviews for activities/restaurants.                |
+| Read          | View Home Page                                    | User accesses the Home Page and its features.                               |
+|               | Display User Profile Information                  | User views profile details if logged in.                                    |
+|               | View Latest Spots                                 | User sees a dynamic list of latest attractions or activities.               |
+|               | View Search Results                               | User checks results from the search conducted using the search bar.        |
+| Update        | Update Profile Information                         | User modifies their profile details.                                        |
+|               | Edit Comments/Reviews                             | User revises previously submitted comments or reviews.                      |
+| Delete        | Delete User Account                               | User deletes their account, removing all associated data.                  |
+|               | Delete Comments/Reviews                           | User removes their own comments or reviews from the system.                 |
+
 #### 7. References
 - Figma mockups and wireframes
 - Activity diagrams created in [Your Diagram Tool]
