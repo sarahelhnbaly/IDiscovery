@@ -75,6 +75,9 @@ The application will be available on web and mobile platforms.
 ### Mockups and Wireframes
 **[Include your mockups and wireframes here]**
 - You can either build them directly in Figma and export as images or provide links to the files in the Figma community.
+
+![image](https://github.com/user-attachments/assets/8ad2632a-fee1-4bfb-9343-61bda62aa5c5)
+
   
 ---
 
