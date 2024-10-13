@@ -1,11 +1,8 @@
-Certainly! Below is an updated version of the Software Requirements Specification (SRS) that includes CRUD (Create, Read, Update, Delete) operations applicable to the City Guide feature. This will help clarify how users can interact with attractions and restaurant data in the application.
 
 ```markdown
 # Software Requirements Specification (SRS) for City Guide
 
-**Project Title**: City Exploration App - City Guide Feature  
-**Prepared by**: [Your Name]  
-**Date**: [Current Date]  
+**Project Title**:Idiscovery App - City Guide Feature  
 
 ---
 
