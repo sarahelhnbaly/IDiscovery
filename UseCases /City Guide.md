@@ -99,7 +99,7 @@ The City Guide feature is designed to engage users by providing a simple and eff
 - Enable Comment Deletion (Delete)
 - Acknowledge Comment Deleted 
 
-```plaintext
+plaintext
    User Activities                              System Activities
    -------------------------                    ----------------------
           [Start]                                 
@@ -119,7 +119,12 @@ The City Guide feature is designed to engage users by providing a simple and eff
      [Edit a Comment]  ----------------------→ [Acknowledge Comment Updated]
              ↓
      [Delete a Comment]  --------------------→ [Acknow
+
+
 #### 6. Wireframe
 
-![a29aN7sKQUJDERduSw1b5h](https://github.com/user-attachments/assets/06a19138-246d-4f1a-9c36-00c10cba46f2)
+![a29aN7sKQUJDERduSw1b5h](https://github.com/user-attachments/assets/fafba2e4-87e9-427c-80b6-0cf4409fa736)
+
+
+
 
