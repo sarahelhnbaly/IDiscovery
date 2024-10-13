@@ -90,6 +90,8 @@ The City Guide feature is designed to engage users by providing a simple and eff
 - Delete a Comment 
 - End
 
+![image](https://github.com/user-attachments/assets/d3878e5a-2f5c-43e0-b259-a14bb95bece6)
+
 **System Activities**
 - Detect Current Location 
 - Display Nearby Attractions 
