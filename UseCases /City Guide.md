@@ -38,6 +38,7 @@ This use case allows hobby developers to apply for a project by filling out an a
 ### Activity Diagram
 ![Activity Diagram](../activity_diagrams/UC5_activity_diagram_applying_for_a_project.png)
 
+
 ### .feature File
 [.feature File Applying for a Project](../features/uc5_applying_for_a_project)
 ```Cucumber
@@ -73,6 +74,37 @@ Feature: Use Case 2 Applying for a Project
     And The application form is closed
 
 ```
+##### User Story: City Guide Functionality
+
+**As a** tourist in Stuttgart  
+**I want** to search for nearby attractions and restaurants  
+**In order to** find suitable places to visit based on my preferences  
+
+## Background:
+   **Given** I have accessed the City Guide section of the app  
+
+## Scenario: Display Nearby Attractions
+   **Given** the app has detected my current location  
+   **When** I view the City Guide  
+   **Then** I see a list of nearby places in Stuttgart  
+
+## Scenario: Scroll to Explore More Places
+   **Given** I am viewing the list of nearby attractions  
+   **When** I scroll down the list  
+   **Then** I can view additional places and attractions  
+
+## Scenario: View Restaurant Options
+   **Given** I am on the City Guide page  
+   **When** I select the "Restaurants" tab  
+   **Then** I see a list of recommended restaurants near me  
+
+## Scenario: Leave a Comment
+   **Given** I have found an attraction or restaurant of interest  
+   **When** I click on the option to leave a comment  
+   **And** I enter my comment in the provided field  
+   **And** I press the "Submit" button  
+   **Then** my comment is added to the location's page  
+   **And** I receive a confirmation message  
 
 ## 2.2 Alternative Flows
 - The developer cancels the application before submitting.
@@ -89,6 +121,7 @@ Feature: Use Case 2 Applying for a Project
 # 5. Postconditions
 - The application is sent to the project owner.
 - The project owner receives a notification of a new application.
+
 
 # 6. Function Points
 n/a
