@@ -66,6 +66,8 @@ The application will be available on web and mobile platforms.
 
 5.2 **Wireframes**  
 - Include wireframes that illustrate the layout and placement of each element on the Home Page.
+- 
+![5jh9NSLQbcYtmDKqGGiguR](https://github.com/user-attachments/assets/3ea5d62c-ea05-45c6-a999-b83891f2aec6)
 
 5.3 **Activity Diagrams**  
 - Attach simplified activity diagrams that depict user interactions with the Home Page and corresponding system responses.
