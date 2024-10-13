@@ -1,5 +1,5 @@
 
-```markdown
+
 # Software Requirements Specification (SRS) for City Guide
 
 **Project Title**:Idiscovery App - City Guide Feature  
