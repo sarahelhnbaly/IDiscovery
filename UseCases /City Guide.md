@@ -14,7 +14,12 @@ This use case allows hobby developers to apply for a project by filling out an a
 
 
 ## 1.2 Mockup 
-[(https://www.figma.com/proto/PbcDTfh1rJfSHkRPgnJqgP/IDiscovery?node-id=45-190&t=JjNjER11xKREoCtC-1)](https://www.figma.com/proto/PbcDTfh1rJfSHkRPgnJqgP/IDiscovery?node-id=45-190&t=JjNjER11xKREoCtC-1)
+
+![image](https://github.com/user-attachments/assets/2a3d45ca-aa2a-42a1-8b4a-e0850d4da31b)
+![image](https://github.com/user-attachments/assets/4a13dc23-dab9-412a-95e9-4a3b660545c5)
+
+
+(https://www.figma.com/proto/PbcDTfh1rJfSHkRPgnJqgP/IDiscovery?node-id=45-190&t=JjNjER11xKREoCtC-1)
 
 ## 1.3 Screenshots
 ### Submit Action
