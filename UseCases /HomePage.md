@@ -92,10 +92,5 @@ This SRS serves as a foundational document for the development of the Home Page 
 - Activity diagrams created in [Your Diagram Tool]
 - Balsamiq: for Wireframehttps:share.balsamiq.com/c/5jh9NSLQbcYtmDKqGGiguR.jpg
 
----
 
-### Tips for Completing the SRS
-- **Visuals**: Make sure to embed all mockups, wireframes, and diagrams directly in the document or provide accessible links.
-- **Review and Iterate**: Collaborate with team members and stakeholders to gather feedback and refine the document.
 
-This structure will help you create a comprehensive SRS document for your Home Page, ensuring all necessary elements are covered. If you need further assistance or details on any specific sections, please let me know!
