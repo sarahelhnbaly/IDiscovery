@@ -90,9 +90,38 @@ The application will be available on web and mobile platforms.
 
 ---
 
-#### 6. Conclusion
-This SRS serves as a foundational document for the development of the Home Page of the City Exploration App. All stakeholders should review and validate the requirements to ensure alignment with business goals.
+#### 6.User Story: Create a New Account
 
+**As a** visitor to the site  
+**I want** to create a new account  
+**In order to** access the application's features  
+
+## Background:
+   **Given** I am on the homepage  
+
+## Scenario: Open account creation page
+   **Given** I am on the homepage  
+   **When** I click the "Register" button  
+   **Then** I am redirected to the "Create Account" page  
+
+## Scenario: Enter valid data and create an account
+   **Given** I am on the "Create Account" page  
+   **When** I enter "myusername" in the "Username" field  
+   **And** I enter "myemail@example.com" in the "Email" field  
+   **And** I enter "mypassword" in the "Password" field  
+   **And** I press the "Create Account" button  
+   **Then** I am redirected to the "My Account" page  
+   **And** I receive a "Success" message  
+
+## Scenario: Enter invalid data and receive error message
+   **Given** I am on the "Create Account" page  
+   **When** I enter "myusername" in the "Username" field  
+   **And** I enter "invalid-email" in the "Email" field  
+   **And** I enter "short" in the "Password" field  
+   **And** I press the "Create Account" button  
+   **Then** I remain on the "Create Account" page  
+   **And** I receive an "Error" message  
+**
 #### 7. References
 - Figma mockups and wireframes
 - Activity diagrams created in [Your Diagram Tool]
