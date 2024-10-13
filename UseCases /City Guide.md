@@ -131,54 +131,7 @@ plaintext
 ![a29aN7sKQUJDERduSw1b5h](https://github.com/user-attachments/assets/fafba2e4-87e9-427c-80b6-0cf4409fa736)
 
 
-#### 7. features
 
-
-Feature: City Guide
-  As a USER
-  I want to explore different cities, discover popular attractions, and get recommendations
-  So that I can plan my trips and visit interesting places
-
-  Background:
-    Given The user is logged in
-    And The City Guide page is open
-
-  @city-guide-feature
-  Scenario Outline: Explore city attractions
-    When The user selects the city <city>
-    Then The top attractions for <city> are displayed
-    And The map shows the location of these attractions
-
-    Examples: Cities and their top attractions
-      | city       |
-      | Berlin     |
-      | Munich     |
-      | Hamburg    |
-
-  @city-guide-feature
-  Scenario: Search for a specific place in a city
-    Given The user is on the City Guide page
-    When The user types the name of the place "<place>"
-    And The user clicks the search button
-    Then The search results for "<place>" are displayed with location details
-
-    Examples: Searching for places
-      | place          |
-      | Brandenburg Gate |
-      | English Garden  |
-      | Elbphilharmonie |
-
-  @city-guide-feature
-  Scenario: Filter city attractions by category
-    Given The user is on the City Guide page
-    When The user applies the filter by category "<category>"
-    Then The attractions in the selected category "<category>" are shown
-
-    Examples: Filtering by categories
-      | category       |
-      | Museums        |
-      | Parks          |
-      | Historical Sites |
 
 
 
