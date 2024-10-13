@@ -119,3 +119,4 @@ The City Guide feature is designed to engage users by providing a simple and eff
      [Edit a Comment]  ----------------------→ [Acknowledge Comment Updated]
              ↓
      [Delete a Comment]  --------------------→ [Acknow
+#### 6. Wire frame
