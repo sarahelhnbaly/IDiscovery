@@ -1,99 +1,124 @@
-# Use-Case Specification: Applying for a Project
+Certainly! Below is an updated version of the Software Requirements Specification (SRS) that includes CRUD (Create, Read, Update, Delete) operations applicable to the City Guide feature. This will help clarify how users can interact with attractions and restaurant data in the application.
 
-# 1. Applying for a Project
+```markdown
+# Software Requirements Specification (SRS) for City Guide
 
-## 1.1 Brief Description
-This use case allows hobby developers to apply for a project by filling out an application form. The form should include relevant information to help project owners evaluate candidates. If a developer wants to apply for a project, they need to fill in the following fields:
+**Project Title**: City Exploration App - City Guide Feature  
+**Prepared by**: [Your Name]  
+**Date**: [Current Date]  
 
-- Developer Name (Full name)
-- Skills (relevant technical skills)
-- Availability (start date, hours per week)
-- Past Experience (brief description of relevant projects)
-- Motivation (reason for applying)
-- Contact Information (email or phone)
+---
 
+## 1. Introduction
 
-## 1.2 Mockup 
+### 1.1 Purpose  
+The purpose of this document is to outline the requirements for the City Guide feature of the City Exploration App. This includes functional and non-functional requirements, user interface designs, and system interactions.
 
-![image](https://github.com/user-attachments/assets/2a3d45ca-aa2a-42a1-8b4a-e0850d4da31b)
-![image](https://github.com/user-attachments/assets/4a13dc23-dab9-412a-95e9-4a3b660545c5)
+### 1.2 Scope  
+The City Guide feature will allow users to discover nearby attractions and restaurants based on their current location, view details about these places, leave comments, and interact with the app for an enriched exploration experience.
 
+---
 
-(https://www.figma.com/proto/PbcDTfh1rJfSHkRPgnJqgP/IDiscovery?node-id=45-190&t=JjNjER11xKREoCtC-1)
+## 2. Overall Description
 
-## 1.3 Screenshots
-### Submit Action
-![Submit Action](../screenshots/uc5_validation.jpg)
+### 2.1 Product Perspective  
+The City Guide is part of a larger application designed for urban exploration, providing users with access to local attractions and dining options.
 
-### Input Missing
-![Input Missing](../screenshots/uc5_input_missing.png)
+### 2.2 User Classes and Characteristics  
+- **Tourists**: Users seeking to explore the city and find nearby attractions or restaurants.
+- **Residents**: Users looking for new places to visit or dining options in their area.
 
-### Form Validation Error
-![Form Validation Error](../screenshots/uc5_error.jpg)
+### 2.3 Operating Environment  
+The application will be available on both mobile and web platforms, with functionality available through GPS to detect user locations.
 
-# 2. Flow of Events
+---
 
-## 2.1 Basic Flow
-- The developer clicks on the "Apply for Project" button.
-- The "Application Form" template pops up.
-- The developer fills in the template.
-- The developer clicks on the "Submit" button.
-- The application is sent to the project owner.
+## 3. Functional Requirements
 
-### Activity Diagram
-![Activity Diagram](../activity_diagrams/UC5_activity_diagram_applying_for_a_project.png)
+### 3.1 Location-Based Search
+- Users must be able to view nearby attractions and restaurants based on their current GPS location.
 
-##### User Story: City Guide Functionality
+### 3.2 Scrollable List
+- Users can scroll through the list of nearby venues to find additional recommendations.
 
-**As a** tourist in Stuttgart  
-**I want** to search for nearby attractions and restaurants  
-**In order to** find suitable places to visit based on my preferences  
+### 3.3 Restaurant Options
+- Users can switch to a "Restaurants" tab to display dining options.
 
-## Background:
-   **Given** I have accessed the City Guide section of the app  
+### 3.4 Commenting Feature
+- Users can leave comments or reviews for specific attractions or restaurants.
 
-## Scenario: Display Nearby Attractions
-   **Given** the app has detected my current location  
-   **When** I view the City Guide  
-   **Then** I see a list of nearby places in Stuttgart  
+### 3.5 CRUD Operations
+- **Create**: Users can add new comments or reviews for venues.
+- **Read**: Users can view details of nearby attractions and restaurants.
+- **Update**: Users can edit their comments or reviews if they wish to change their feedback.
+- **Delete**: Users can remove their comments or reviews if necessary.
 
-## Scenario: Scroll to Explore More Places
-   **Given** I am viewing the list of nearby attractions  
-   **When** I scroll down the list  
-   **Then** I can view additional places and attractions  
+---
 
-## Scenario: View Restaurant Options
-   **Given** I am on the City Guide page  
-   **When** I select the "Restaurants" tab  
-   **Then** I see a list of recommended restaurants near me  
+## 4. Non-Functional Requirements
 
-## Scenario: Leave a Comment
-   **Given** I have found an attraction or restaurant of interest  
-   **When** I click on the option to leave a comment  
-   **And** I enter my comment in the provided field  
-   **And** I press the "Submit" button  
-   **Then** my comment is added to the location's page  
-   **And** I receive a confirmation message  
+### 4.1 Performance Requirements  
+- The City Guide must display nearby locations within 3 seconds of accessing the feature.
 
-## 2.2 Alternative Flows
-- The developer cancels the application before submitting.
-- The developer submits incomplete or incorrect data.
+### 4.2 Usability Requirements  
+- The UI must be user-friendly, providing an intuitive experience for both tourists and residents.
 
-# 3. Special Requirements
-- Form validation for mandatory fields (e.g., name, contact information).
-- Data privacy considerations (sensitive info like contact details).
+### 4.3 Security Requirements  
+- Users must be authenticated to perform CRUD operations on comments and reviews to ensure data integrity.
 
-# 4. Preconditions
-- The developer is logged in to the platform.
-- The developer has clicked on the "Apply for Project" button.
+---
 
-# 5. Postconditions
-- The application is sent to the project owner.
-- The project owner receives a notification of a new application.
+## 5. User Interface Requirements
 
+### 5.1 Narrative  
+The City Guide feature is designed to engage users by providing a simple and effective interface to explore local attractions and dining options. Upon accessing the City Guide, users are shown a list of nearby places based on their current location. They can easily scroll to view more options and switch tabs to find restaurants. The ability to leave comments encourages user interaction and feedback, enhancing community engagement.
 
-# 6. Function Points
-n/a
+### 5.2 Mockups  
+- **Home Page**: The City Guide section includes a search bar, a list of nearby attractions, and tabs for restaurants.
+- **City Guide Page**: Features a prominent display of a map and a list of attractions/venues, with options for scrolling.
 
-# 7. CRUD Operation
-This Use Case represents the "Create" operation in the CRUD (Create, Read, Update, Delete) model, as it involves the creation of an application by the developer.
+### 5.3 Activity Diagram  
+**User Activities**
+- Start 
+- Access City Guide 
+- View Nearby Attractions 
+- Scroll for More Places 
+- Switch to Restaurant Tab 
+- Select Venue for More Details 
+- Leave a Comment (Create)
+- Edit a Comment (Update)
+- Delete a Comment 
+- End
+
+**System Activities**
+- Detect Current Location 
+- Display Nearby Attractions 
+- Show Additional Recommendations 
+- Display Restaurant Options 
+- Enable Comment Submission (Create)
+- Acknowledge Comment Posted (Read Confirmation)
+- Enable Comment Editing (Update)
+- Acknowledge Comment Updated 
+- Enable Comment Deletion (Delete)
+- Acknowledge Comment Deleted 
+
+```plaintext
+   User Activities                              System Activities
+   -------------------------                    ----------------------
+          [Start]                                 
+             ↓                                               
+      [Access City Guide]   <---------------------- [Detect Current Location]
+             ↓                                                    
+      [View Nearby Attractions] <--------------- [Display Nearby Attractions]
+             ↓
+        [Scroll for More Places] 
+             ↓                                               
+      [Switch to Restaurant Tab]  <----- [Display Restaurant Options]
+             ↓
+       [Select Venue for More Details] 
+             ↓
+         [Leave a Comment]  --------------------→ [Acknowledge Comment Posted]
+             ↓
+     [Edit a Comment]  ----------------------→ [Acknowledge Comment Updated]
+             ↓
+     [Delete a Comment]  --------------------→ [Acknow
