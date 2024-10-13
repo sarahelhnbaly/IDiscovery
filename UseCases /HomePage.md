@@ -1,97 +1,104 @@
-# Use-Case Specification: Applying for a Project
-
-# 1. Applying for a Project
-
-## 1.1 Brief Description
-This use case allows hobby developers to apply for a project by filling out an application form. The form should include relevant information to help project owners evaluate candidates. If a developer wants to apply for a project, they need to fill in the following fields:
-
-- Developer Name (Full name)
-- Skills (relevant technical skills)
-- Availability (start date, hours per week)
-- Past Experience (brief description of relevant projects)
-- Motivation (reason for applying)
-- Contact Information (email or phone)
 
 
-## 1.2 Mockup 
-![Mockup Applying for a Project](../mockups/uc5_applying_for_a_project_mockup.png)
+### Software Requirements Specification (SRS) for Home Page
 
-## 1.3 Screenshots
-### Submit Action
-![Submit Action](../screenshots/uc5_validation.jpg)
+**Project Title**: City Exploration App — Home Page
 
-### Input Missing
-![Input Missing](../screenshots/uc5_input_missing.png)
+**Prepared by**: [Your Name]
+**Date**: [Current Date]
 
-### Form Validation Error
-![Form Validation Error](../screenshots/uc5_error.jpg)
+---
 
-# 2. Flow of Events
+#### 1. Introduction
 
-## 2.1 Basic Flow
-- The developer clicks on the "Apply for Project" button.
-- The "Application Form" template pops up.
-- The developer fills in the template.
-- The developer clicks on the "Submit" button.
-- The application is sent to the project owner.
+1.1 **Purpose**  
+The purpose of this document is to outline the requirements for the Home Page of the City Exploration App. This includes functional and non-functional requirements, user interface designs, and system interactions.
 
-### Activity Diagram
-![Activity Diagram](../activity_diagrams/UC5_activity_diagram_applying_for_a_project.png)
+1.2 **Scope**  
+The Home Page serves as the main entry point for users to access various features, including login, search functionalities, and the exploration of the latest spots.
 
-### .feature File
-[.feature File Applying for a Project](../features/uc5_applying_for_a_project)
-```Cucumber
-Feature: Use Case 2 Applying for a Project
-  As a DEVELOPER
-  I want to open the project details page and apply for a project
-  Therefore I want the fields: name, skills, availability, experience, and motivation to be available for input
+---
 
-  Background:
-    Given The developer is logged in
-    And Project Details page is open
+#### 2. Overall Description
 
-  @apply-project-feature
-  Scenario Outline: Submit an application for a project
-    When The developer types the name <name> and the input is correct
-    And The developer types the skills <skills>
-    And The developer selects the availability <availability>
-    And The developer types the past experience <experience>
-    And The developer types the motivation <motivation>
-    And The developer presses the submit button
-    Then The application is sent
-    And A confirmation message is shown
+2.1 **Product Perspective**  
+The Home Page will be part of a larger system designed for city exploration, providing users with easy access to features enhancing their exploration experience.
 
-    Examples: Applications
-      | name       | skills              | availability  | experience                | motivation            |
-      | Jane Smith | Java, Flutter       | Immediate     | Built an app for a client | Interested in app dev  |
-      | John Doe   | Python, Django      | In two weeks  | Led backend dev projects  | Love the project idea  |
+2.2 **User Classes and Characteristics**  
+- **Guest Users**: Users who have not logged in and have limited access.
+- **Registered Users**: Logged-in users with personalized experiences.
 
-  @apply-project-feature
-  Scenario: Leaving the Application Form without submitting
-    When The developer presses the Back button
-    Then No request is sent
-    And The application form is closed
+2.3 **Operating Environment**  
+The application will be available on web and mobile platforms.
 
-```
+---
 
-## 2.2 Alternative Flows
-- The developer cancels the application before submitting.
-- The developer submits incomplete or incorrect data.
+#### 3. Functional Requirements
 
-# 3. Special Requirements
-- Form validation for mandatory fields (e.g., name, contact information).
-- Data privacy considerations (sensitive info like contact details).
+3.1 **Login Functionality**  
+- Users must be able to log in to access personalized features.
+- The system must validate user credentials and provide appropriate feedback.
 
-# 4. Preconditions
-- The developer is logged in to the platform.
-- The developer has clicked on the "Apply for Project" button.
+3.2 **Menu and Navigation**  
+- Display a menu bar with options: Home, City Guide, Profile, Settings.
 
-# 5. Postconditions
-- The application is sent to the project owner.
-- The project owner receives a notification of a new application.
+3.3 **Search Bar**  
+- Users should be able to input search queries to find activities or spots.
+- Display the relevant search results based on user input.
 
-# 6. Function Points
-n/a
+3.4 **Discover Latest Spots**  
+- A section on the Home Page where users can view the latest recommended spots.
 
-# 7. CRUD Operation
-This Use Case represents the "Create" operation in the CRUD (Create, Read, Update, Delete) model, as it involves the creation of an application by the developer.
+---
+
+#### 4. Non-Functional Requirements
+
+4.1 **Performance Requirements**  
+- The Home Page must load within 3 seconds on standard connections.
+
+4.2 **Usability Requirements**  
+- The UI must be intuitive and easy to navigate for all user classes.
+- Ensure accessibility for users with disabilities.
+
+---
+
+#### 5. User Interface Requirements
+
+5.1 **Mockups**  
+- Provide visual representations of the Home Page, showing elements such as the login option, menu bar, search bar, and latest spots section.
+
+5.2 **Wireframes**  
+- Include wireframes that illustrate the layout and placement of each element on the Home Page.
+
+5.3 **Activity Diagrams**  
+- Attach simplified activity diagrams that depict user interactions with the Home Page and corresponding system responses.
+
+---
+
+### Mockups and Wireframes
+**[Include your mockups and wireframes here]**
+- You can either build them directly in Figma and export as images or provide links to the files in the Figma community.
+  
+---
+
+### Activity Diagrams
+**[Include the activity diagram here]**
+- Provide a clear visual representation of user actions versus system activities, either as an image or as links to the diagrams created in your preferred diagramming tool.
+
+---
+
+#### 6. Conclusion
+This SRS serves as a foundational document for the development of the Home Page of the City Exploration App. All stakeholders should review and validate the requirements to ensure alignment with business goals.
+
+#### 7. References
+- Figma mockups and wireframes
+- Activity diagrams created in [Your Diagram Tool]
+- Balsamiq: for Wireframehttps:share.balsamiq.com/c/5jh9NSLQbcYtmDKqGGiguR.jpg
+
+---
+
+### Tips for Completing the SRS
+- **Visuals**: Make sure to embed all mockups, wireframes, and diagrams directly in the document or provide accessible links.
+- **Review and Iterate**: Collaborate with team members and stakeholders to gather feedback and refine the document.
+
+This structure will help you create a comprehensive SRS document for your Home Page, ensuring all necessary elements are covered. If you need further assistance or details on any specific sections, please let me know!
