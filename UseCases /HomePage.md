@@ -69,6 +69,7 @@ The application will be available on web and mobile platforms.
 
 5.3 **Activity Diagrams**  
 - Attach simplified activity diagrams that depict user interactions with the Home Page and corresponding system responses.
+![image](https://github.com/user-attachments/assets/e0e33136-b0ad-4335-88d7-2d6f0fd238b9)
 
 ---
 
