@@ -14,7 +14,7 @@ This use case allows hobby developers to apply for a project by filling out an a
 
 
 ## 1.2 Mockup 
-![Mockup Applying for a Project](../mockups/uc5_applying_for_a_project_mockup.png)
+[(https://www.figma.com/proto/PbcDTfh1rJfSHkRPgnJqgP/IDiscovery?node-id=45-190&t=JjNjER11xKREoCtC-1)](https://www.figma.com/proto/PbcDTfh1rJfSHkRPgnJqgP/IDiscovery?node-id=45-190&t=JjNjER11xKREoCtC-1)
 
 ## 1.3 Screenshots
 ### Submit Action
