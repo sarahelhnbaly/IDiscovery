@@ -64,6 +64,7 @@ The application will be available on web and mobile platforms.
 5.1 **Mockups**  
 - Provide visual representations of the Home Page, showing elements such as the login option, menu bar, search bar, and latest spots section.
 
+https://www.figma.com/proto/PbcDTfh1rJfSHkRPgnJqgP/IDiscovery?node-id=45-981&t=JUhs8gbZvqJWzHAD-1
 5.2 **Wireframes**  
 - Include wireframes that illustrate the layout and placement of each element on the Home Page.
 - 
