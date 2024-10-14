@@ -466,6 +466,9 @@
         <mxCell id="W2C030SJba9mZZKaXuLO-118" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="130" y="2010" width="30" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="W2C030SJba9mZZKaXuLO-119" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="390" width="30" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
