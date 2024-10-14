@@ -74,6 +74,8 @@ The application will be available on web and mobile platforms.
 - Attach simplified activity diagrams that depict user interactions with the Home Page and corresponding system responses.
 ![image](https://github.com/user-attachments/assets/e0e33136-b0ad-4335-88d7-2d6f0fd238b9)
 
+https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1#G1WS32qrNiiJdSnXCLWzZzRrRmUw4NtVmT
+
 ---
 
 ### Mockups and Wireframes
