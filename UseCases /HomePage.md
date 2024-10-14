@@ -86,7 +86,7 @@ https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank
 
 [https://www.figma.com/proto/PbcDTfh1rJfSHkRPgnJqgP/IDiscovery?node-id=45-981&t=JUhs8gbZvqJWzHAD-1
 
-https://github.com/Ehsangood1/IDiscovery/blob/main/UseCases/Active%20Diagram.drawio.svg](https://github.com/Ehsangood1/IDiscovery/blob/def85f6071ec5c1a4c962595d035a42566427559/UseCases/Active%20Diagram.drawio.svg)
+![image](https://github.com/Ehsangood1/IDiscovery/blob/def85f6071ec5c1a4c962595d035a42566427559/UseCases/Active%20Diagram.drawio.svg)
   
 ---
 
