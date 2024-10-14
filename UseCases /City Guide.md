@@ -94,6 +94,8 @@ https://www.figma.com/proto/PbcDTfh1rJfSHkRPgnJqgP/IDiscovery?node-id=45-190&t=J
 
 ![image](https://github.com/user-attachments/assets/d3878e5a-2f5c-43e0-b259-a14bb95bece6)
 
+https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1#G1WS32qrNiiJdSnXCLWzZzRrRmUw4NtVmT
+
 **System Activities**
 - Detect Current Location 
 - Display Nearby Attractions 
