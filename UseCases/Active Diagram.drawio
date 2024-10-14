@@ -232,6 +232,9 @@
         <mxCell id="W2C030SJba9mZZKaXuLO-58" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="380" y="1045" width="30" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="W2C030SJba9mZZKaXuLO-59" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="210" width="30" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
