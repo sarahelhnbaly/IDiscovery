@@ -77,6 +77,8 @@ The City Guide feature is designed to engage users by providing a simple and eff
 ![image](https://github.com/user-attachments/assets/f0b606cb-3c1d-4eeb-9c60-7e1d7b3d8526)
 ![image](https://github.com/user-attachments/assets/c1bad5fc-be64-4fb3-975b-0e2b9b295bd6)
 
+https://www.figma.com/proto/PbcDTfh1rJfSHkRPgnJqgP/IDiscovery?node-id=45-190&t=JUhs8gbZvqJWzHAD-1
+
 ### 5.3 Activity Diagram  
 **User Activities**
 - Start 
